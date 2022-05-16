@@ -1,0 +1,306 @@
+ /* start nav*/
+
+ .navbar {
+   /* background-color: lightgrey; */
+ }
+
+ .navbar .logo{
+   float:left;
+   width:30%
+ }
+
+ .navbar .logo img{
+   width:50%
+ }
+
+ .navbar .links {
+   float: right;
+   width:70%;
+
+ }
+
+ .links a{
+   padding: 10px;
+   margin: 10px;
+   color:black;
+   display: inline-block;
+   text-decoration: none;
+   text-align: right;
+ }
+
+
+ /**/
+
+
+
+  /*section home*/
+  .home-parent{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+  
+
+   
+
+  }
+
+  .home-content{
+      color: #fff;
+      text-align: center;
+      margin-top: 40%;
+      margin: auto;
+      width:70%;
+      padding: 10%;
+  }
+
+  .home-content p{
+     padding: 10px;
+  }
+
+  .home-content h2{
+      padding: 10px;
+  }
+
+  .home-content button{
+      width:130px;
+      height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+    color:#fff;
+    padding: 10px;
+  }
+
+  .btn-1{
+      background-color:#8e7754;
+      border:none;
+  }
+  .btn-2{
+      background-color: transparent;
+    border:2px solid #fff
+
+
+    
+  }
+  /*end se home*/
+
+  /*start info*/
+  .info{
+    background-color: #f8f8f8;
+  
+    margin:8% 5%;
+    height: 600px;
+  
+
+  }
+  .info img{
+    width: 50%;
+    float:left;
+
+    
+  }
+  .info .info-content{
+    width:50%;
+    float: right;
+   
+ 
+  }
+
+  .info-content h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+     margin :10%;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  .info-content p{
+    color: gray;
+    line-height: 1.8;
+    margin:  10% ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+
+  /*end section info*/
+
+  /*location section*/
+
+   .location {
+     margin: 10% 5%;
+     background-color: #f8f8f8;
+     height: 600px;
+   }
+
+   .location .location-content {
+     width:50%;
+     float: left;
+   }
+
+   .location .location-content h3{
+     margin: 30px 50px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+
+   }
+
+   .location .location-content p{
+     color: grey;
+     line-height: 1.5;
+     width:80%;
+     margin:10px 30px;
+     padding:20px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   .location img{
+     float:right;
+     width:50%;
+     text-align: center;
+    
+   }
+   /*end location*/
+
+  /*Baking*/
+  .baking {
+    text-align: center;
+    margin-top: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+  }
+  .baking  p{
+    color:gray
+  }
+/*End baking*/
+
+/*Imgs*/
+  .imgs{
+    width:33.333%;
+    float:left;
+    text-align:center;
+    margin-top: 40px;
+  
+  }
+  .imgs img{
+    width: 80%;
+  }
+
+  .imgs h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .imgs p{
+    padding: 10px;
+    width:90%;
+    font-family: "Alegreya Sans";
+    line-height: 1.5;
+    color: gray;
+  }
+
+  .clr{
+    clear: both;
+  }
+/*End imgs*/
+
+/*section contact*/
+ .contact{
+   background-color: #f8f8f8;
+   margin: 10% 5%;
+    height: 600px;
+    margin: 7% 5%;
+ }
+
+ .contact .contact-content{
+   width:50%;
+   float:left
+
+
+   
+ }
+
+
+ .contact-img{
+   width:50%;
+   float:right;
+ }
+
+ .contact-img img{
+   width:25%;
+
+
+ }
+
+ .contact-content h2{
+   font-family: font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin: 50px;
+ }
+
+
+ .contact-content h4{
+   margin: 40px;
+ }
+
+
+ 
+ .contact-content p{
+   color: gray;
+   line-height: 1.8;
+   font-family: font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin:20px 30px;
+ }
+/*end section contact*/
+
+/*section about*/
+.about{
+  background-color: #403d38;
+  height: 500px;
+
+}
+
+.about-content{
+  width:20%;
+  float:left;
+  padding: 10px;
+  margin:  20px;
+  color: gray;
+  line-height: 1.8;
+
+}
+
+.about-content h3{
+  color:#fff;
+
+}
+/*ent section about*/
+
+/*section footer*/
+ .footer{
+   text-align: center;
+   background-color: #22211f;
+   height: 300px;
+
+  
+ }
+ .footer p{
+   color:gray;
+ }
+
+ .footer img{
+   margin-top: 5%;
+ }
+/*end footer*/
+
+@media screen and  (max-width:600px){
+  .info {
+    width:100% px;
+  }
+}
+@media screen and ()){
+
+}
+  
+
+
